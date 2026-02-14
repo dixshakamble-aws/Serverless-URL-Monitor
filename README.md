@@ -7,11 +7,24 @@ Real-time URL health checking with AWS Lambda + DynamoDB. Query latest status vi
 This project stores HTTP response data (status code, latency, timestamp) for target URLs in DynamoDB. A Lambda Function URL endpoint (`GET /?url=...`) returns the most recent record.
 
 ## Project Structure
-├── README.md # High-level overview
-├── lambda/
-│ ├── url-monitor-handler.py # Lambda handler code
-│ └── requirements.txt # Dependencies
-└── screenshots/ # AWS console screenshots
+The repository is organized into three main areas:
+
+Root level: Contains the main README.md file with project overview, setup instructions, and screenshots.
+
+lambda/ directory: Holds the serverless application code:
+- url-monitor-handler.py - The main Lambda function handler that queries DynamoDB
+
+- requirements.txt - Python dependencies (empty since boto3 is pre-installed)
+
+screenshots/ directory: Stores AWS console screenshots showing:
+
+- Lambda function configuration
+
+- DynamoDB table setup
+
+- Function URL creation
+
+- API test results with JSON response
 
 
 ## Technologies Used
