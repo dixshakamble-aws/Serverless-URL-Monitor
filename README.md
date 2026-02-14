@@ -49,7 +49,7 @@ Enable Function URL (Auth: NONE)
 Test: https://<function-url>/?url=https://aws.amazon.com
 
 ## Screenshots
-See all deployment screenshots in the [images folder](screenshots/)
+See all deployment screenshots in the [images folder](https://github.com/dixshakamble-aws/Serverless-URL-Monitor/tree/main/images)
 
 ## Acknowledgments
 - AWS Lambda and DynamoDB official documentation
