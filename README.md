@@ -49,18 +49,7 @@ Enable Function URL (Auth: NONE)
 Test: https://<function-url>/?url=https://aws.amazon.com
 
 ## Screenshots
-![Lambda Function](images/lambda1.png)
-![Lambda Function](images/lambdacode.png)
-![Lambda Function](images/lamcodepass.png)
-
-![DynamoDB Table](images/dbtable.png)
-![DynamoDB Table](images/DBtablerun.png)
-
-![Function URL](images/EventBrigRules.png)
-![API Response](images/INeventbrigRules.png)
-![Function URL](images/INtable.png)
-![Function URL](images/roles.png)
-
+See all deployment screenshots in the [images folder](screenshots/)
 
 ## Acknowledgments
 - AWS Lambda and DynamoDB official documentation
